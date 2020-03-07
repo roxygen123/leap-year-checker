@@ -1,6 +1,7 @@
 year = input("year you need to check:")
 year_number = int(year)
 
+
 def leap_year_checker():
     if year_number % 4 == 0:
         print(year_number,"it's a leap year")
